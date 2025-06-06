@@ -1,11 +1,11 @@
+import ProjectsPage from "./projects/ProjectsPage";
+
 function App() {
-  return(
-    <>
-      <blockquote cite="Benjamin Franklin">
-        <p>Tell me and I forget, teach me and I remember, involve me and I learn.</p>
-      </blockquote>
-    </>
-  )
+  return (
+    <div className="container">
+      <ProjectsPage />
+    </div>
+  );
 }
 
-export default App
+export default App;
